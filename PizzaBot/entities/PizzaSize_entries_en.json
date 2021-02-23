@@ -1,0 +1,37 @@
+[
+  {
+    "value": "Small",
+    "synonyms": [
+      "Small",
+      "S"
+    ]
+  },
+  {
+    "value": "Medium",
+    "synonyms": [
+      "Medium",
+      "M"
+    ]
+  },
+  {
+    "value": "Large",
+    "synonyms": [
+      "Large",
+      "L"
+    ]
+  },
+  {
+    "value": "Extra Large",
+    "synonyms": [
+      "Extra Large",
+      "XL"
+    ]
+  },
+  {
+    "value": "Party",
+    "synonyms": [
+      "Party",
+      "P"
+    ]
+  }
+]

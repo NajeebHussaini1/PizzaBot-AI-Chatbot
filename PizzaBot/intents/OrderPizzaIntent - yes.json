@@ -1,0 +1,44 @@
+{
+  "id": "3884cd54-dfe7-4d9a-a1b9-e7ea5e977228",
+  "parentId": "ce296e7f-d748-421c-9df6-0c6dd2d2d9a3",
+  "rootParentId": "ce296e7f-d748-421c-9df6-0c6dd2d2d9a3",
+  "name": "OrderPizzaIntent - yes",
+  "auto": true,
+  "contexts": [
+    "OrderPizzaIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizzaIntent.OrderPizzaIntent-yes",
+      "affectedContexts": [
+        {
+          "name": "OrderPizzaIntent-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can I have a name and phone number for the order?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

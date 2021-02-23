@@ -1,0 +1,83 @@
+{
+  "id": "093c0a13-d6e3-4384-aeee-4db8583ebb43",
+  "parentId": "3884cd54-dfe7-4d9a-a1b9-e7ea5e977228",
+  "rootParentId": "ce296e7f-d748-421c-9df6-0c6dd2d2d9a3",
+  "name": "ContactInfoIntent",
+  "auto": true,
+  "contexts": [
+    "OrderPizzaIntent-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "OrderPizzaIntent.OrderPizzaIntent-yes.OrderPizzaIntent-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "ContactInfoIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "67a751e5-20bb-45ec-92e7-c39874d2dfd0",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "558a6f5d-9272-49fd-bbf5-35c35adb3b5d",
+          "name": "phoneNumber",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phoneNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your phone number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your name is $name and your phone number is $phoneNumber . Is that correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

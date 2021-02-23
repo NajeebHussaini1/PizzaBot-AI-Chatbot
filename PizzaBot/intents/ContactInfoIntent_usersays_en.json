@@ -1,0 +1,133 @@
+[
+  {
+    "id": "91599da1-9805-4ff1-b98e-818e808cb80f",
+    "data": [
+      {
+        "text": "Bobby Smith",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "888555222",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bfb456d5-cfdf-41cf-9d98-cc13707f4f5d",
+    "data": [
+      {
+        "text": "My ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "tom",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " and my ",
+        "userDefined": false
+      },
+      {
+        "text": "phone number",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "999888222",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1275f3f-9fe9-463b-8655-4f25a6a3c540",
+    "data": [
+      {
+        "text": "justin",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "888-555-888",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d96e45b2-2676-4bb4-8832-64d6a4d7176f",
+    "data": [
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "bob",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " and number is ",
+        "userDefined": false
+      },
+      {
+        "text": "999444222",
+        "meta": "@sys.phone-number",
+        "alias": "phoneNumber",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

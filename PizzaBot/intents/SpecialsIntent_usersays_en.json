@@ -1,0 +1,93 @@
+[
+  {
+    "id": "9c124d42-60f5-4a6c-b49f-87f6f5b63bb0",
+    "data": [
+      {
+        "text": "deals",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef26b75f-ed70-4abe-ad86-c6788d30a209",
+    "data": [
+      {
+        "text": "do you have a deal of the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "932abb2c-cc8a-4d6e-9709-4e25856afce6",
+    "data": [
+      {
+        "text": "Any Pizza Specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39a9fb4b-f9e6-413b-874d-8c35d3a6ece5",
+    "data": [
+      {
+        "text": "Do you have specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "20e30f2a-e257-4bff-8d79-81ba1bf6b8e4",
+    "data": [
+      {
+        "text": "Specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b3b948b-4710-4355-b396-229bc86ccec7",
+    "data": [
+      {
+        "text": "Tell me your specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11cc08b3-2b46-4610-8e37-d658bd9c4acb",
+    "data": [
+      {
+        "text": "What are your specials?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
